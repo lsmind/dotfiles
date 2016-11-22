@@ -7,7 +7,7 @@ twmn &
 conky -c ~/.conkyrc &
 yabar -c ~/.yabar.config &
 notification-daemon &
-xcompmgr -c -t-5 -l-5 -r4.2 -o.55 &
+xcompmgr -c -t-5 -l-5 -r4.2 -o.65 &
 xss-lock -- xscreensaver -n &
 conky -d; sleep 1 && transset-df .5 -n Conky
 exec bspwm

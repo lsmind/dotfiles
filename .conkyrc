@@ -20,22 +20,22 @@ border_width 20
 default_color white
 default_shade_color white
 default_outline_color white
-alignment top_right
-gap_x 10
-gap_y 430
+alignment top_left
+gap_x 20
+gap_y 450
 use_spacer left
 no_buffers yes
 uppercase no
 
 TEXT
 
-${color}${color lightgrey}Uptime: ${color}$uptime | ${color lightgrey}Load: $color$loadavg${color lightgrey}
+${color}${color #F67222}Uptime: ${color}$uptime | ${color #F67222}Load: $color$loadavg${color lightgrey}
 
-${color lightgrey}Battery :$color ${battery BAT1} | ${color lightgrey}Time: ${color}${battery_time BAT1}
-${alignc}${color #222222}${battery_bar 8,278 BAT1}
+${color #F67222}Battery :$color ${battery BAT1} | ${color #F67222}Time: ${color}${battery_time BAT1}
 ${color #222222}$stippled_hr$color
-
-${color lightgrey}  PID            Process${alignr}Memory        CPU
+${color #141515}${battery_bar 8,278 BAT1}
+${color #222222}$stippled_hr$color
+${color #F67222}PID           Process${alignr}Memory        CPU
 ${color}${top pid 1}      ${top name 1}${alignr}${top mem_res 1}     ${top cpu 1}%
 ${color}${top pid 2}      ${top name 2}${alignr}${top mem_res 2}     ${top cpu 2}%
 ${color}${top pid 3}      ${top name 3}${alignr}${top mem_res 3}     ${top cpu 3}%

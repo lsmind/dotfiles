@@ -18,6 +18,7 @@ xterm*dynamicColors:    on
 xterm*colorMode:        on
 xterm*saveLines:        10000
 xterm*visualBell:       false
+XTerm*scaleHeight:      1.05
 
 !==============================================================================
 ! Цвета
