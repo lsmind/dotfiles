@@ -1,6 +1,9 @@
+#!/bin/sh
+
 syndaemon -t -i 2 -d
 
 setxkbmap "us,ru" -option "grp:alt_shift_toggle"
+xsetroot -cursor_name left_prt
 
 sxhkd &
 twmn &
