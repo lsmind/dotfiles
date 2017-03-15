@@ -3,8 +3,8 @@
 !==============================================================================
 !Кириллица
 XTerm*utf8Title: true
-XTerm*faceName: Terminus
-XTerm*faceSize: 50
+XTerm*faceName: xos4 Terminus
+XTerm*faceSize: 8
 xterm*bolfFont:
 xterm*scrollBar:        false
 xterm*geometry:         80x50
@@ -25,7 +25,9 @@ XTerm*borderWidth:      0
 xterm*colorBD:     #e6d51d
 xterm*background:  #111111
 #xterm*foreground:  #b4b4b4
-xterm*foreground:  #00FF00
+#xterm*foreground:  #00FF00
+#xterm*foreground:  #20C20E
+xterm*foreground:  #19b898
 ! Чёрный
 xterm*color0:      #000000
 xterm*color8:      #555753
@@ -55,7 +57,7 @@ xterm*color15:     #ffffff
 ! ROFI Color theme
 ! ------------------------------------------------------------------------------
 rofi.color-enabled: true
-rofi.color-window: #002b37, #002b37, #003642
-rofi.color-normal: #002b37, #819396, #002b37, #003642, #819396
-rofi.color-active: #002b37, #008ed4, #002b37, #003642, #008ed4
-rofi.color-urgent: #002b37, #da4281, #002b37, #003642, #da4281
+rofi.color-window: #273238, #273238, #1e2529
+rofi.color-normal: #273238, #c1c1c1, #273238, #394249, #ffffff
+rofi.color-active: #273238, #80cbc4, #273238, #394249, #80cbc4
+rofi.color-urgent: #273238, #ff1844, #273238, #394249, #ff1844

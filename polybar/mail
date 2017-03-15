@@ -1,0 +1,4 @@
+#!/usr/bin/python
+
+import imaplib
+obj = imaplib.IMAP4_SSL('imap.yandex.com')
